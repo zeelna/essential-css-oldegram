@@ -37,7 +37,7 @@ h4, p {
 }
 
 /* Background colors for Layout*/
-header, main {
+header, article {
     background-color: #FFFFFF;
     width: 375px;
 }
@@ -107,9 +107,10 @@ header, footer, .uploaded-post {
 .uploaded-post {
     height: 545px;
     width: 375px;
-    margin-bottom: 25px;
 
-    border: 1px solid red; /* temporary */
+    /* From Figma, to separate posts. Opinion: too large, opted for smaller*/
+    /* margin-bottom: 25px; */
+    border-bottom: 2px solid #C6C6C6;
 }
 
 .uploaded-post .posted-image {
