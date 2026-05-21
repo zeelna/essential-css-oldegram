@@ -1,37 +1,52 @@
 <html>
     <head>
+        <!-- Source Sans 3 Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect"
+              href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+              rel="stylesheet">
+        <!-- Link to .css -->
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <!-- Header -->
         <header>
             <div class="container-header">
                 <img class="logo" src="images/logo.png" alt="Oldagram logo">
-                <img class="user-avatar" src="images/user-avatar.png" alt="small profile picture">
+                <img class="avatar" src="images/user-avatar.png" alt="small profile picture">
             </div>
         </header>
+        <!-- All posts -->
         <main class="container-all-posts">
+            <!-- Post #1 -->
             <article class="uploaded-post">
-                <section class="article-header">
-                    <img class="poster-avatar" src="images/avatar-vangogh.jpg" alt="self-portrait of young Vincent van Gogh in black suit and tie">
-                    <h2 class="author-name">Vincent van Gogh</h2>
-                    <h3 class="author-location">Zudert, Netherlands</h3>
+                <section class="article-header whitespace-container" >
+                    <img class="avatar" src="images/avatar-vangogh.jpg" alt="self-portrait of young Vincent van Gogh in black suit and tie">
+                    <div class="container-poster-details">
+                        <h2 class="author-name">Vincent van Gogh</h2>
+                        <p class="author-location">Zudert, Netherlands</p>
+                    </div>
                 </section>
                 <img class="posted-image" src="images/post-vangogh.jpg" alt="blueish self-portrait of Vincent van Gogh"/>
-                <section class="article-footer">
-                    <img class="icon-image" src="images/icon-heart.png" alt="small heart icon"/>
-                    <img class="icon-image" src="images/icon-comment.png" alt="small comment-bubble icon"/>
-                    <img class="icon-image" src="images/icon-dm.png" alt="small paper plane icon"/>
+                <section class="article-footer whitespace-container">
+                    <div class="icons">
+                        <img class="icon-image" src="images/icon-heart.png" alt="small heart icon"/>
+                        <img class="icon-image" src="images/icon-comment.png" alt="small comment-bubble icon"/>
+                        <img class="icon-image" src="images/icon-dm.png" alt="small paper plane icon"/>
+                    </div>
                     <h4 class="like-count">21,492 likes</h4>
-                    <h5 class="author-post-title">
+                    <p class="author-post-title">
                         <span class="accent-text">vincey1853</span>
                         just took a few mushrooms lol
-                    </h5>
+                    </p>
                 </section>
             </article>
+            <!-- Post #2 -->
+
+            <!-- Post #3-->
         </main>
-        <footer>
-            <!-- Empty -->
-        </footer>
+        <!-- -->
 
         <!-- Link to static data-->
         <script src="index.js"></script>
