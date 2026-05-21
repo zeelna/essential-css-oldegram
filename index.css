@@ -1,5 +1,152 @@
 html, body {
+    /* Center content */
+    margin: 0 auto;
+    width: 375px;
+    /* Uniform */
+    padding: 0;
+    background-color: #F5F5F5;
+    /* Source Sans 3 (Google Fonts), weight value 200 to 900 */
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+
+/* Typography */
+h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
+h2, h3, h4, h5, h6 {
+    font-size: 0.8125rem; /* 13 px*/
+}
+
+h2, h3, h4, h5, h6,
+.accent-text {
+    font-weight: 900;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+h4, p {
+    border: 1px solid red; /* temporary */
+}
+
+/* Background colors for Layout*/
+header, main {
+    background-color: #FFFFFF;
+    width: 375px;
+}
+
+/* A. Header, Logo and Avatars*/
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid #C6C6C6;
+    margin: 0;
+    padding: 0;
+    /* Margin must be 0 for white-background*/
+}
+
+.container-header .avatar {
+    margin-right: 16px;
+}
+
+/* User profile and Each author's profile*/
+.avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+
+    border: 1px solid red; /* temporary */
+}
+
+.container-header .logo {
+    width: 128px;
+    padding: 0;
+    /* logo's padding is vector is approx 5-6pixels,
+    to align with .user-avatar's 16px margin, we must manually calculate:
+    .user-avatar's margin 16px (a) - .logo's inherent right-left margin 6px(b) = equal margin
+    16-6 = 10px*/
+    margin-left: 8px;
+    border: 1px solid red; /* temporary */
+
+}
+
+/* Post's header */
+.article-header {
+    display: flex;
+    flex-direction: row;
+    /* Design from Figma stated 10pixels whitespace for poster's avatar top-left*/
+}
+
+.whitespace-container {
+    padding: 10px; /* IMPORTANT, MUST NOT BE MARGIN! */
+}
+
+.container-poster-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid red; /* temporary */
+}
+
+header, footer, .uploaded-post {
+    border: 1px solid red; /* temporary */
+}
+
+/* Content */
+.uploaded-post {
+    height: 545px;
+    width: 375px;
+    margin-bottom: 25px;
+
+    border: 1px solid red; /* temporary */
+}
+
+.uploaded-post .posted-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Design from Figma stated 7pixels*/
+.uploaded-post .container-poster-details {
+    margin-left: 7px;
+}
+
+/* Article Footer*/
+.article-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-footer h4,
+.article-footer p {
+    padding: 6px 2px;
+}
+
+/* Posts' footer (Likes, Comments, title) */
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.icon-image {
+    width: 23px;
+    border: 1px solid red; /* temporary */
+    margin-right: 10px; /* For next */
+}
+
+
+
 
