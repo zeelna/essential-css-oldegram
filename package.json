@@ -1,0 +1,21 @@
+{
+  "name": "essential-css-oldegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeelna/essential-css-oldegram.git"
+  },
+  "private": true,
+  "dependencies": {
+    "vite": "^8.0.14"
+  }
+}
