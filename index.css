@@ -32,10 +32,6 @@ p {
     font-size: 0.75rem;
 }
 
-h4, p {
-    border: 1px solid red; /* temporary */
-}
-
 /* Background colors for Layout*/
 header, article {
     background-color: #FFFFFF;
@@ -64,8 +60,6 @@ header, article {
     border-radius: 50%;
     width: 34px;
     height: 34px;
-
-    border: 1px solid red; /* temporary */
 }
 
 .container-header .logo {
@@ -76,8 +70,6 @@ header, article {
     .user-avatar's margin 16px (a) - .logo's inherent right-left margin 6px(b) = equal margin
     16-6 = 10px*/
     margin-left: 8px;
-    border: 1px solid red; /* temporary */
-
 }
 
 /* Post's header */
@@ -95,12 +87,6 @@ header, article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    border: 1px solid red; /* temporary */
-}
-
-header, footer, .uploaded-post {
-    border: 1px solid red; /* temporary */
 }
 
 /* Content */
@@ -161,7 +147,6 @@ header, footer, .uploaded-post {
 
 .icon-image {
     width: 100%;
-    border: 1px solid red; /* temporary */
 }
 
 
