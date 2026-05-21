@@ -91,9 +91,8 @@ header, article {
 
 /* Content */
 .uploaded-post {
-    height: 545px;
+    /* height: 545px; */
     width: 375px;
-
     /* From Figma, to separate posts. Opinion: too large, opted for smaller*/
     /* margin-bottom: 25px; */
     border-bottom: 2px solid #C6C6C6;
@@ -117,7 +116,9 @@ header, article {
 
 .article-footer h4,
 .article-footer p {
-    padding: 6px 2px;
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 2px;
 }
 
 /* Buttons in Footer */
